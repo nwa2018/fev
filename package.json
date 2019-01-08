@@ -9,7 +9,7 @@
     "fev": "./bin/cli.js"
   },
   "scripts": {
-    "doc": "docsify serve ./doc -p 5403 -o"
+    "doc": "docsify serve ./docs -p 5403 -o"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
