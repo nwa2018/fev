@@ -1,6 +1,6 @@
 {
   "name": "@fev/fev",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "repository": "git@github.com:nwa2018/qd-cli.git",
   "author": "fujuewen <fujuewen@yy.com>",
@@ -9,7 +9,8 @@
     "fev": "./bin/cli.js"
   },
   "scripts": {
-    "doc": "docsify serve ./docs -p 5403 -o"
+    "doc": "docsify serve ./docs -p 5403 -o",
+    "pub": "standard-version && git push --follow-tags origin master && npm publish --access=public"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
@@ -104,6 +105,6 @@
     "webpack-merge": "^4.1.5"
   },
   "devDependencies": {
-    "lerna": "^3.9.0"
+    "standard-version": "^4.4.0"
   }
 }
