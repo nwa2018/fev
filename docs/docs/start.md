@@ -7,14 +7,10 @@
 由于依赖比较多，安装过程较慢，请耐心等待
 ```
 npm i @fev/fev -g
-// 或者
-yarn global add @fev/fev
 ```
 如果安装速度很慢，可以尝试换源
 ```
 npm i @fev/fev -g --registry https://registry.npm.taobao.org
-// 或者
-yarn global add @fev/fev --registry https://registry.npm.taobao.org
 ```
 ## 快速开始
 运行以下命令快速生成模板
