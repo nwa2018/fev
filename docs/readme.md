@@ -13,4 +13,3 @@
 !> 注意事项
 
 - `fev`不支持`IE8`
-- 由于没怎么用过`react`，`flow`，`typescropt`，这三部分的配置不确定完全可靠，基本都是从[poi](https://github.com/egoist/poi)抄来的
