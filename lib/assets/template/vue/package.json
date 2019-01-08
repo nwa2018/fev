@@ -1,0 +1,15 @@
+{
+  "name": "vue-quickstart",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {
+    "vue": "^2.5.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "fev d",
+    "build": "fev b"
+  },
+  "author": "",
+  "license": "ISC"
+}

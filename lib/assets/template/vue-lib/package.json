@@ -1,0 +1,19 @@
+{
+  "name": "${name}",
+  "version": "0.1.0",
+  "description": "${description}",
+  "main": "dist/index.js",
+  "module": "src/index.vue",
+  "scripts": {
+    "build": "fev b",
+    "dev": "fev d --cwd dev"
+  },
+  "author": "${author}",
+  "license": "ISC",
+  "eslintIgnore": [
+    "dev/*"
+  ],
+  "dependencies": {
+    "vue": "^2.5.21"
+  }
+}

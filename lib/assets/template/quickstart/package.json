@@ -1,0 +1,13 @@
+{
+  "name": "${name}",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "dev": "fev d",
+    "build": "fev b"
+  },
+  "author": "",
+  "license": "ISC"
+}
