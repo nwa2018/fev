@@ -1,0 +1,22 @@
+{
+  "name": "doc-knowledge",
+  "version": "1.0.0",
+  "description": "``` npm i docsify-cli -g",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "docsify serve -p 5401 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwa2018/doc-knowledge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwa2018/doc-knowledge/issues"
+  },
+  "homepage": "https://github.com/nwa2018/doc-knowledge#readme"
+}
