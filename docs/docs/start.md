@@ -30,6 +30,4 @@ npm i @fev/fev -g --registry https://registry.npm.taobao.org
 ## 卸载
 ```
 npm uninstall @fev/fev -g
-// 或者
-yarn global remove @fev/fev
 ```

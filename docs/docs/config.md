@@ -12,7 +12,6 @@ module.exports = api => {
   }
 }
 ```
-⚠️  ❗️ ✨ ⚡️ 💥 🔥
 ## entry
 - 类型: `string` `object`
 - 默认值: `./src`
