@@ -129,7 +129,7 @@ module.exports = {
 - 类型：`object`
 - 默认值：`{}`
 
-传入`babel`中的`presets`与`plugins`会合并到默认的`presets`与`plugins`中，其他字段可以覆盖默认值，详情请看[默认配置](http)
+传入`babel`中的`presets`与`plugins`会合并到默认的`presets`与`plugins`中，其他字段可以覆盖默认值，详情请看[默认配置](https://github.com/nwa2018/fev/blob/master/lib/config/babel.config.js)
 
 ------
 

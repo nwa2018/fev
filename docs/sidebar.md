@@ -6,6 +6,6 @@
 
 * [**配置**](docs/config)
 
-* [**ISSUE**](docs/issue)
-
 * [**TODO**](docs/todo)
+
+* [**ISSUE**](docs/issue)

@@ -253,11 +253,68 @@ module.exports = {
 
 ## babel配置扩展
 
+``` js
+module.exports = {
+  babel: {}
+}
+```
+`babel`字段为标准的配置，可以参考[babel options](https://babeljs.io/docs/en/options)
+
+**注意:** 传入的`babel`中的`presets`与`plugins`会合并到默认的`presets`与`plugins`中，其他字段可以覆盖默认值，详情请看[默认配置](https://github.com/nwa2018/fev/blob/master/lib/config/babel.config.js)
 ## postcss配置扩展
+``` js
+module.exports = {
+  postcss: []
+}
+```
 
+## 注入外部扩展
+可以参考[外部扩展(externals)](https://webpack.docschina.org/configuration/externals/)
+``` js
+module.exports = {
+  webpack: {
+    externals: {
+      vue: 'Vue'
+    }
+  }
+}
+```
+为了防止`eslint`报错，还需要增加
+``` js
+module.exports = {
+  webpack: {
+    externals: {
+      vue: 'Vue'
+    }
+  },
+  eslintConfig: {
+    globals: {
+      Vue: true
+    }
+  }
+}
+```
+## 扩展html插件
+使用的[html-webpack-plugins@4.0.0-beta.5](https://github.com/jantimon/html-webpack-plugin)，请注意版本，`html-webpack-plugin@3.x`跟`html-webpack-plugin@4.x`的用法是不一样的，下面举一个例子
 
+``` js
+module.exports = api => {
+  return {
+    webpack: {
+      plugins: [{
+        apply (compiler) {
+          compiler.hooks.compilation.tap('yourPlugin', compilation => {
+            const hooks = api.resolve('html-webpack-plugin').getHooks(compilation)
 
-
+            // 从这里开始就可以拿到html-webpack-plugin所提供的hook了
+            hooks.alterAssetTagGroups.tap('yourPlugin', () => {})
+          }
+        }
+      }]
+    }
+    }
+}
+```
 
 
 
