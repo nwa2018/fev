@@ -6,6 +6,8 @@
 
 * [**配置**](docs/config)
 
+* [**API**](docs/api)
+
 * [**TODO**](docs/todo)
 
 * [**ISSUE**](docs/issue)

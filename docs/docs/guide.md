@@ -24,7 +24,8 @@ module.exports = api => {
 
 - `fev i vue`: 快速生成`vue`模板
 - `fev i react`: 快速生成`react`模板
-- `fev i lib`: 快速生成`js/vue npm`组件模板
+- `fev i lib`: 快速生成`js npm`组件模板
+- `fev i vue-lib`: 快速生成`vue npm`组件模板
 
 ## 开发vue/react项目
 默认是`vue`项目体系
@@ -39,7 +40,7 @@ module.exports = {
 }
 ```
 ## 移动端开发模式
-
+使用淘宝[flexible](https://github.com/amfe/lib-flexible)布局方案
 ``` js
 module.exports = {
   px2rem: {
