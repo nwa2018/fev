@@ -8,6 +8,7 @@
     "build": "fev b",
     "dev": "fev d --cwd dev"
   },
+  "license": "ISC",
   "author": "${author}",
   "license": "ISC",
   "eslintIgnore": [

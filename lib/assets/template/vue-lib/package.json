@@ -13,6 +13,7 @@
   "eslintIgnore": [
     "dev/*"
   ],
+  "license": "ISC",
   "dependencies": {
     "vue": "^2.5.21"
   }

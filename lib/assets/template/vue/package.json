@@ -10,6 +10,7 @@
     "dev": "fev d",
     "build": "fev b"
   },
+  "license": "ISC",
   "author": "",
   "license": "ISC"
 }
