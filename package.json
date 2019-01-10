@@ -1,6 +1,6 @@
 {
   "name": "@fev/fev",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "repository": "git@github.com:nwa2018/qd-cli.git",
   "author": "fujuewen <fujuewen@yy.com>",
